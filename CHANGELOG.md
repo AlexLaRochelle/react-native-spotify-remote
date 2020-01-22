@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.2] - 2020-01-22
+### Fixed (Hopefully)
+- Fixing issue some users were experiencing with automated build systems and locating symbols [#27](https://github.com/cjam/react-native-spotify-remote/issues/20)
+
 ## [0.1.1] - 2020-01-21
 ### Fixed
 - Missing SpotifyiOS headers / Framework [#25](https://github.com/cjam/react-native-spotify-remote/issues/20)

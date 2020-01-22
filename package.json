@@ -34,7 +34,7 @@
     "prepublishOnly": "yarn rebuild",
     "prepack": "yarn submodules && yarn cleanup:ios",
     "postpack": "yarn submodules",
-    "cleanup:ios": "pushd ios/external/SpotifySDK/SpotifyiOS.framework; rm SpotifyiOS Headers; cp Versions/Current/* .; popd",
+    "cleanup:ios": "pushd ios/external/SpotifySDK/SpotifyiOS.framework; rm SpotifyiOS Headers; cp -R Versions/Current/ .; popd",
     "submodules": "rm -rf ios/external/* && git submodule update --init --recursive",
     "example": "concurrently -n \"server,packager\" -c \"yellow,cyan\" \"cd example-server && yarn start\" \"cd example && yarn start\""
   },
