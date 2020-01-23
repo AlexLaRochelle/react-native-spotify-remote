@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.1.3] - 2020-01-22
+## [0.1.4] - 2020-01-22
 ### Fixed
 - Fixing issue some users (me) were experiencing with automated build systems and locating symbols [#27](https://github.com/cjam/react-native-spotify-remote/issues/27)
 
